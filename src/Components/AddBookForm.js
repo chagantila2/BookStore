@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 function AddBookForm({ onAdd }) {
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
+  const [authorname, setAuthorname] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
