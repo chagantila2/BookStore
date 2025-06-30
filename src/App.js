@@ -21,7 +21,6 @@ function App() {
   return (
     <div style={{ padding: '2rem' }}>
       <h1>Book Store</h1>
-      <h2>lakshmi</h2>
       <AddBookForm onAdd={addBook} />
       <BookList books={books} onDelete={deleteBook} />
     </div>
